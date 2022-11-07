@@ -8,6 +8,8 @@ PARENT FOR FLEXBOX
 *******************/
 .container {
     /* max-width: 300px; */
+
+    /* This property is required to start using the flexible box module in your CSS */
     display: flex;
 
     justify-content: space-evenly;
@@ -32,6 +34,8 @@ PARENT FOR FLEXBOX
 CHILD FOR FLEXBOX
 ******************/
 .box {
+    /* properties that are used on the individual flex-items */
+    align-self: baseline;
     padding: 2rem;
     margin: 5px;
     background-color: #Cee3fe;
